@@ -1,0 +1,248 @@
+{
+  "notebooklm_sources": [
+    {
+      "category": "Banco de Dados Relacionais",
+      "sources": [
+        {
+          "name": "PostgreSQL Documentation",
+          "type": "documentacao_oficial",
+          "url": "https://www.postgresql.org/docs/",
+          "description": "Documentação oficial do PostgreSQL com referência SQL, arquitetura e administração."
+        },
+        {
+          "name": "MySQL Reference Manual",
+          "type": "documentacao_oficial",
+          "url": "https://dev.mysql.com/doc/",
+          "description": "Manual oficial do MySQL incluindo sintaxe SQL e administração."
+        },
+        {
+          "name": "Database System Concepts",
+          "type": "livro",
+          "url": "https://www.db-book.com/",
+          "description": "Livro acadêmico clássico sobre fundamentos de sistemas de banco de dados."
+        }
+      ]
+    },
+    {
+      "category": "Banco de Dados Não Relacionais",
+      "sources": [
+        {
+          "name": "MongoDB Manual",
+          "type": "documentacao_oficial",
+          "url": "https://www.mongodb.com/docs/",
+          "description": "Documentação oficial do MongoDB com modelagem e performance."
+        },
+        {
+          "name": "Apache Cassandra Documentation",
+          "type": "documentacao_oficial",
+          "url": "https://cassandra.apache.org/doc/latest/",
+          "description": "Guia oficial do Cassandra com arquitetura distribuída."
+        },
+        {
+          "name": "Designing Data-Intensive Applications",
+          "type": "livro",
+          "url": "https://dataintensive.net/",
+          "description": "Livro essencial sobre arquitetura de dados modernos e sistemas distribuídos."
+        }
+      ]
+    },
+    {
+      "category": "APIs",
+      "sources": [
+        {
+          "name": "OpenAPI Specification",
+          "type": "padrao",
+          "url": "https://spec.openapis.org/",
+          "description": "Especificação padrão para definição de APIs REST."
+        },
+        {
+          "name": "FastAPI Documentation",
+          "type": "framework",
+          "url": "https://fastapi.tiangolo.com/",
+          "description": "Framework moderno para construção de APIs em Python."
+        },
+        {
+          "name": "Microsoft REST API Guidelines",
+          "type": "guia_tecnico",
+          "url": "https://github.com/microsoft/api-guidelines",
+          "description": "Boas práticas corporativas para design de APIs."
+        }
+      ]
+    },
+    {
+      "category": "Python",
+      "sources": [
+        {
+          "name": "Python Official Documentation",
+          "type": "documentacao_oficial",
+          "url": "https://docs.python.org/3/",
+          "description": "Documentação oficial da linguagem Python."
+        },
+        {
+          "name": "Fluent Python",
+          "type": "livro",
+          "url": "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/",
+          "description": "Livro avançado sobre práticas e recursos internos da linguagem Python."
+        }
+      ]
+    },
+    {
+      "category": "Inteligência Artificial",
+      "sources": [
+        {
+          "name": "Artificial Intelligence: A Modern Approach",
+          "type": "livro",
+          "url": "https://aima.cs.berkeley.edu/",
+          "description": "Livro acadêmico base para fundamentos de IA."
+        }
+      ]
+    },
+    {
+      "category": "Machine Learning",
+      "sources": [
+        {
+          "name": "Scikit-Learn Documentation",
+          "type": "biblioteca",
+          "url": "https://scikit-learn.org/stable/",
+          "description": "Documentação oficial da biblioteca de machine learning para Python."
+        },
+        {
+          "name": "TensorFlow Documentation",
+          "type": "framework",
+          "url": "https://www.tensorflow.org/",
+          "description": "Framework de machine learning e deep learning da Google."
+        },
+        {
+          "name": "Hands-On Machine Learning",
+          "type": "livro",
+          "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/",
+          "description": "Livro prático sobre ML com Scikit-Learn, Keras e TensorFlow."
+        }
+      ]
+    },
+    {
+      "category": "Deep Learning",
+      "sources": [
+        {
+          "name": "Deep Learning Book",
+          "type": "livro",
+          "url": "https://www.deeplearningbook.org/",
+          "description": "Livro clássico sobre redes neurais profundas."
+        },
+        {
+          "name": "PyTorch Documentation",
+          "type": "framework",
+          "url": "https://pytorch.org/docs/stable/index.html",
+          "description": "Documentação oficial do framework PyTorch."
+        }
+      ]
+    },
+    {
+      "category": "Excel Avançado",
+      "sources": [
+        {
+          "name": "Microsoft Excel Documentation",
+          "type": "documentacao_oficial",
+          "url": "https://support.microsoft.com/excel",
+          "description": "Documentação e suporte oficial do Excel."
+        }
+      ]
+    },
+    {
+      "category": "Linguagem R",
+      "sources": [
+        {
+          "name": "R Project",
+          "type": "documentacao_oficial",
+          "url": "https://www.r-project.org/",
+          "description": "Site oficial da linguagem R."
+        },
+        {
+          "name": "R for Data Science",
+          "type": "livro",
+          "url": "https://r4ds.hadley.nz/",
+          "description": "Livro moderno e prático sobre análise de dados com R."
+        }
+      ]
+    },
+    {
+      "category": "Análise de Dados",
+      "sources": [
+        {
+          "name": "An Introduction to Statistical Learning",
+          "type": "livro",
+          "url": "https://www.statlearning.com/",
+          "description": "Livro introdutório moderno sobre estatística aplicada e machine learning."
+        },
+        {
+          "name": "Data Science for Business",
+          "type": "livro",
+          "url": "https://www.oreilly.com/library/view/data-science-for/9781449374273/",
+          "description": "Aplicação prática de ciência de dados para tomada de decisão."
+        }
+      ]
+    },
+    {
+      "category": "KPI e Performance",
+      "sources": [
+        {
+          "name": "Balanced Scorecard Institute",
+          "type": "organizacao",
+          "url": "https://balancedscorecard.org/",
+          "description": "Instituto especializado em gestão estratégica e KPIs."
+        }
+      ]
+    },
+    {
+      "category": "Dashboards e Storytelling",
+      "sources": [
+        {
+          "name": "Storytelling with Data",
+          "type": "livro",
+          "url": "https://www.storytellingwithdata.com/",
+          "description": "Livro sobre comunicação visual e narrativa com dados."
+        },
+        {
+          "name": "The Big Book of Dashboards",
+          "type": "livro",
+          "url": "https://bigbookofdashboards.com/",
+          "description": "Guia prático de construção de dashboards eficazes."
+        }
+      ]
+    },
+    {
+      "category": "Segurança da Informação",
+      "sources": [
+        {
+          "name": "ISO/IEC 27001 Overview",
+          "type": "norma",
+          "url": "https://www.iso.org/isoiec-27001-information-security.html",
+          "description": "Norma internacional de gestão de segurança da informação."
+        },
+        {
+          "name": "NIST Cybersecurity Framework",
+          "type": "framework",
+          "url": "https://www.nist.gov/cyberframework",
+          "description": "Framework de segurança cibernética amplamente adotado."
+        }
+      ]
+    },
+    {
+      "category": "Engenharia de Prompts",
+      "sources": [
+        {
+          "name": "OpenAI Documentation",
+          "type": "documentacao_oficial",
+          "url": "https://platform.openai.com/docs",
+          "description": "Documentação oficial para uso de modelos de linguagem."
+        },
+        {
+          "name": "DeepLearning.AI Prompt Engineering Course",
+          "type": "curso",
+          "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+          "description": "Curso introdutório de engenharia de prompts."
+        }
+      ]
+    }
+  ]
+}

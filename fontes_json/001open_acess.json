@@ -1,0 +1,256 @@
+{
+  "notebooklm_sources": [
+    {
+      "category": "Banco de Dados Relacionais",
+      "sources": [
+        {
+          "name": "PostgreSQL Official Documentation",
+          "type": "documentacao",
+          "url": "https://www.postgresql.org/docs/",
+          "description": "Documentação oficial completa do PostgreSQL."
+        },
+        {
+          "name": "Stanford CS145 Databases",
+          "type": "curso_universitario",
+          "url": "https://cs145-fa20.github.io/",
+          "description": "Curso aberto de bancos de dados de Stanford."
+        },
+        {
+          "name": "SQLite Documentation",
+          "type": "documentacao",
+          "url": "https://www.sqlite.org/docs.html",
+          "description": "Documentação oficial do SQLite."
+        }
+      ]
+    },
+    {
+      "category": "Banco de Dados Não Relacionais",
+      "sources": [
+        {
+          "name": "MongoDB Documentation",
+          "type": "documentacao",
+          "url": "https://www.mongodb.com/docs/",
+          "description": "Manual completo do MongoDB."
+        },
+        {
+          "name": "Cassandra Documentation",
+          "type": "documentacao",
+          "url": "https://cassandra.apache.org/doc/latest/",
+          "description": "Documentação oficial do Apache Cassandra."
+        },
+        {
+          "name": "NoSQL Survey Paper (arXiv)",
+          "type": "paper",
+          "url": "https://arxiv.org/abs/1905.12786",
+          "description": "Survey acadêmico open-access sobre bancos NoSQL."
+        }
+      ]
+    },
+    {
+      "category": "APIs",
+      "sources": [
+        {
+          "name": "OpenAPI Specification",
+          "type": "padrao",
+          "url": "https://spec.openapis.org/",
+          "description": "Especificação oficial OpenAPI."
+        },
+        {
+          "name": "FastAPI Documentation",
+          "type": "documentacao",
+          "url": "https://fastapi.tiangolo.com/",
+          "description": "Framework open-source para APIs em Python."
+        },
+        {
+          "name": "REST API Tutorial",
+          "type": "tutorial",
+          "url": "https://restfulapi.net/",
+          "description": "Guia gratuito sobre APIs REST."
+        }
+      ]
+    },
+    {
+      "category": "Python",
+      "sources": [
+        {
+          "name": "Python Official Documentation",
+          "type": "documentacao",
+          "url": "https://docs.python.org/3/",
+          "description": "Documentação oficial da linguagem Python."
+        },
+        {
+          "name": "Scipy Lecture Notes",
+          "type": "livro_aberto",
+          "url": "https://scipy-lectures.org/",
+          "description": "Curso open-source de Python científico."
+        },
+        {
+          "name": "Automate the Boring Stuff (Free Online)",
+          "type": "livro_aberto",
+          "url": "https://automatetheboringstuff.com/",
+          "description": "Livro gratuito sobre automação com Python."
+        }
+      ]
+    },
+    {
+      "category": "Inteligência Artificial",
+      "sources": [
+        {
+          "name": "Artificial Intelligence: A Modern Approach (AIMA site)",
+          "type": "material_aberto",
+          "url": "https://aima.cs.berkeley.edu/",
+          "description": "Materiais e recursos do livro clássico de IA."
+        },
+        {
+          "name": "Stanford CS221 AI",
+          "type": "curso_universitario",
+          "url": "https://ai.stanford.edu/class/cs221/",
+          "description": "Curso aberto de IA de Stanford."
+        },
+        {
+          "name": "AI Index Report",
+          "type": "relatorio",
+          "url": "https://aiindex.stanford.edu/",
+          "description": "Relatório anual open-access sobre IA."
+        }
+      ]
+    },
+    {
+      "category": "Machine Learning",
+      "sources": [
+        {
+          "name": "An Introduction to Statistical Learning (Free PDF)",
+          "type": "livro_aberto",
+          "url": "https://www.statlearning.com/",
+          "description": "Livro open-access sobre estatística aplicada e ML."
+        },
+        {
+          "name": "Scikit-Learn Documentation",
+          "type": "documentacao",
+          "url": "https://scikit-learn.org/stable/",
+          "description": "Biblioteca open-source de ML."
+        },
+        {
+          "name": "Google Machine Learning Crash Course",
+          "type": "curso_gratuito",
+          "url": "https://developers.google.com/machine-learning/crash-course",
+          "description": "Curso gratuito de ML do Google."
+        }
+      ]
+    },
+    {
+      "category": "Deep Learning",
+      "sources": [
+        {
+          "name": "Deep Learning Book",
+          "type": "livro_aberto",
+          "url": "https://www.deeplearningbook.org/",
+          "description": "Livro clássico open-access sobre deep learning."
+        },
+        {
+          "name": "MIT Deep Learning Course",
+          "type": "curso_universitario",
+          "url": "http://introtodeeplearning.com/",
+          "description": "Curso aberto do MIT."
+        },
+        {
+          "name": "arXiv Deep Learning Papers",
+          "type": "repositorio",
+          "url": "https://arxiv.org/list/cs.LG/recent",
+          "description": "Lista de papers recentes em machine/deep learning."
+        }
+      ]
+    },
+    {
+      "category": "R",
+      "sources": [
+        {
+          "name": "R Project",
+          "type": "documentacao",
+          "url": "https://www.r-project.org/",
+          "description": "Site oficial da linguagem R."
+        },
+        {
+          "name": "R for Data Science (Free Online)",
+          "type": "livro_aberto",
+          "url": "https://r4ds.hadley.nz/",
+          "description": "Livro open-source moderno de R."
+        }
+      ]
+    },
+    {
+      "category": "Análise de Dados",
+      "sources": [
+        {
+          "name": "Data Science for Business (Author Resources)",
+          "type": "material_aberto",
+          "url": "https://www.datascienceforbusiness.com/",
+          "description": "Recursos complementares do livro."
+        },
+        {
+          "name": "KDD Conference Open Proceedings",
+          "type": "conferencia",
+          "url": "https://www.kdd.org/kdd2024/proceedings",
+          "description": "Anais abertos da conferência KDD."
+        }
+      ]
+    },
+    {
+      "category": "Visualização & Dashboards",
+      "sources": [
+        {
+          "name": "Storytelling With Data Blog",
+          "type": "blog_educacional",
+          "url": "https://www.storytellingwithdata.com/blog",
+          "description": "Conteúdo gratuito sobre narrativa com dados."
+        },
+        {
+          "name": "Observable Data Visualization",
+          "type": "plataforma_aberta",
+          "url": "https://observablehq.com/",
+          "description": "Exemplos open-source de visualização."
+        }
+      ]
+    },
+    {
+      "category": "Segurança da Informação",
+      "sources": [
+        {
+          "name": "NIST Cybersecurity Framework",
+          "type": "framework",
+          "url": "https://csrc.nist.gov/publications",
+          "description": "Documentação aberta do NIST."
+        },
+        {
+          "name": "OWASP Top 10",
+          "type": "guia_aberto",
+          "url": "https://owasp.org/www-project-top-ten/",
+          "description": "Principais vulnerabilidades de segurança."
+        }
+      ]
+    },
+    {
+      "category": "Engenharia de Prompts / LLM",
+      "sources": [
+        {
+          "name": "OpenAI Documentation",
+          "type": "documentacao",
+          "url": "https://platform.openai.com/docs",
+          "description": "Documentação aberta sobre LLMs."
+        },
+        {
+          "name": "Prompt Engineering Guide",
+          "type": "guia_aberto",
+          "url": "https://www.promptingguide.ai/",
+          "description": "Guia open-source de engenharia de prompts."
+        },
+        {
+          "name": "LLM Papers (arXiv)",
+          "type": "repositorio",
+          "url": "https://arxiv.org/list/cs.CL/recent",
+          "description": "Papers recentes em NLP e LLM."
+        }
+      ]
+    }
+  ]
+}

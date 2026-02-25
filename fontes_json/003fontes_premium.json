@@ -1,0 +1,108 @@
+{
+  "notebooklm_sources": [
+    {
+      "category": "Banco de Dados Relacionais — Acadêmico",
+      "sources": [
+        {"name": "ACM Digital Library — Databases", "type": "biblioteca_academica", "url": "https://dl.acm.org/subject/database-systems", "description": "Artigos científicos sobre sistemas de banco de dados."},
+        {"name": "IEEE Xplore — Database Systems", "type": "biblioteca_academica", "url": "https://ieeexplore.ieee.org/browse/technologies/database-systems", "description": "Artigos e conferências sobre banco de dados."},
+        {"name": "VLDB Proceedings", "type": "conferencia", "url": "http://www.vldb.org/pvldb/", "description": "Publicações da Very Large Data Bases Conference."},
+        {"name": "SIGMOD Conference Proceedings", "type": "conferencia", "url": "https://sigmod.org/", "description": "Anais da principal conferência de DBMS."},
+        {"name": "Stanford DB Class (CS245)", "type": "curso_universitario", "url": "https://cs245.stanford.edu/", "description": "Curso universitário sobre design de bancos de dados relacionais."}
+      ]
+    },
+    {
+      "category": "Banco de Dados Não Relacionais — Acadêmico",
+      "sources": [
+        {"name": "ACM Transactions on Database Systems (TODS)", "type": "revista", "url": "https://dl.acm.org/journal/tods", "description": "Revista top de pesquisa em bancos de dados."},
+        {"name": "NoSQL Ecosystem — Research Overview", "type": "survey_artigo", "url": "https://arxiv.org/abs/1905.12786", "description": "Survey acadêmico de bancos NoSQL."},
+        {"name": "IEEE BigData Conference", "type": "conferencia", "url": "https://bigdataieee.org/", "description": "Conferência com foco em big data e NoSQL."}
+      ]
+    },
+    {
+      "category": "APIs — Acadêmico",
+      "sources": [
+        {"name": "API Design Patterns (Paper)", "type": "artigo", "url": "https://dl.acm.org/doi/10.1145/3319619.3347168", "description": "Padrões de design de APIs em pesquisa."},
+        {"name": "REST API Research Trends", "type": "survey", "url": "https://arxiv.org/abs/2008.13145", "description": "Tendências de pesquisa em APIs REST."},
+        {"name": "Service-Oriented Architecture (SOA) Research", "type": "artigo", "url": "https://ieeexplore.ieee.org/document/6117240", "description": "Pesquisa sobre arquitetura orientada a serviços e APIs."}
+      ]
+    },
+    {
+      "category": "Python — Acadêmico & Técnico",
+      "sources": [
+        {"name": "Python Scientific Computing", "type": "wiki_academica", "url": "https://scipy-lectures.org/", "description": "Curso técnico para Python científico."},
+        {"name": "Python Papers — arXiv Search", "type": "acervo_preprint", "url": "https://arxiv.org/search/?query=python+programming", "description": "Preprints científicos sobre Python em aplicações."},
+        {"name": "Google Python Class", "type": "curso_gratuito", "url": "https://developers.google.com/edu/python", "description": "Curso gratuito de Google para Python."}
+      ]
+    },
+    {
+      "category": "Inteligência Artificial — Acadêmico",
+      "sources": [
+        {"name": "Stanford CS221: AI", "type": "curso_universitario", "url": "https://ai.stanford.edu/class/cs221/", "description": "Curso clássico de IA de Stanford."},
+        {"name": "MIT 6.S191 Deep Learning", "type": "curso_universitario", "url": "http://introtodeeplearning.com/", "description": "Curso introdutório ao deep learning do MIT."},
+        {"name": "AI Index Report", "type": "relatorio", "url": "https://aiindex.stanford.edu/", "description": "Relatório anual com métricas e tendências de IA."}
+      ]
+    },
+    {
+      "category": "Machine Learning — Acadêmico",
+      "sources": [
+        {"name": "Coursera — Machine Learning by Andrew Ng", "type": "curso_mooc", "url": "https://www.coursera.org/learn/machine-learning", "description": "Curso clássico de ML (Stanford/Coursera)."},
+        {"name": "UFLDL Tutorial", "type": "tutorial_universidade", "url": "http://ufldl.stanford.edu/", "description": "Tutorial de deep learning de Stanford."},
+        {"name": "Journal of Machine Learning Research (JMLR)", "type": "revista", "url": "https://www.jmlr.org/", "description": "Principal revista de pesquisa em ML."},
+        {"name": "NeurIPS Proceedings", "type": "conferencia", "url": "https://neurips.cc/Conferences/2025", "description": "Anais da conferência NeurIPS."},
+        {"name": "ICML Proceedings", "type": "conferencia", "url": "https://icml.cc/", "description": "Anais da maior conferência de ML."}
+      ]
+    },
+    {
+      "category": "Deep Learning — Acadêmico",
+      "sources": [
+        {"name": "Deep Learning Papers (arXiv)", "type": "acervo_preprint", "url": "https://arxiv.org/search/?query=deep+learning", "description": "Preprints na área de Deep Learning."},
+        {"name": "DeepMind Publications", "type": "pesquisa_empresa", "url": "https://deepmind.com/research", "description": "Publicações de pesquisa da DeepMind."},
+        {"name": "ICLR Proceedings", "type": "conferencia", "url": "https://iclr.cc/", "description": "Anais da conferência ICLR (foco em deep learning)."}
+      ]
+    },
+    {
+      "category": "Análise de Dados — Acadêmico",
+      "sources": [
+        {"name": "KDD Conference", "type": "conferencia", "url": "https://www.kdd.org/", "description": "Conferência top em mineração de dados."},
+        {"name": "Information Visualization Symposium", "type": "conferencia", "url": "http://ieeevis.org/", "description": "IEEE VIS — visualização de dados."},
+        {"name": "Exploratory Data Algorithms Survey", "type": "survey", "url": "https://arxiv.org/abs/2007.02337", "description": "Levantamento sobre técnicas exploratórias de dados."}
+      ]
+    },
+    {
+      "category": "Excel Avançado — Acadêmico",
+      "sources": [
+        {"name": "Microsoft Excel Research Papers", "type": "acervo_preprint", "url": "https://arxiv.org/search/?query=excel+analysis", "description": "Artigos aplicando Excel em ciência de dados."}
+      ]
+    },
+    {
+      "category": "R — Acadêmico",
+      "sources": [
+        {"name": "CRAN Task Views", "type": "repositorio", "url": "https://cran.r-project.org/web/views/", "description": "Visões por tarefa (análise de dados, bioestatística etc)."},
+        {"name": "R Journal", "type": "revista", "url": "https://journal.r-project.org/", "description": "Revista oficial da comunidade R."}
+      ]
+    },
+    {
+      "category": "KPI, Dashboards & Storytelling — Acadêmico",
+      "sources": [
+        {"name": "IEEE InfoVis Papers", "type": "biblioteca", "url": "https://ieeexplore.ieee.org/browse/periodicals/infovis", "description": "Artigos sobre visualização e dashboards."},
+        {"name": "Visualization and Data Storytelling (Survey)", "type": "survey", "url": "https://arxiv.org/abs/2001.05541", "description": "Pesquisa sobre narrativa e visualização de dados."}
+      ]
+    },
+    {
+      "category": "Segurança da Informação — Acadêmico",
+      "sources": [
+        {"name": "ACM CCS — Security Conference", "type": "conferencia", "url": "https://www.sigsac.org/ccs/", "description": "Conferência de segurança da computação."},
+        {"name": "USENIX Security Symposium", "type": "conferencia", "url": "https://www.usenix.org/conferences", "description": "Eventos acadêmicos de segurança da informação."},
+        {"name": "NIST Security Papers", "type": "repositorio", "url": "https://csrc.nist.gov/publications", "description": "Padrões, relatórios e white papers de segurança."}
+      ]
+    },
+    {
+      "category": "Engenharia de Prompts / LLM — Acadêmico",
+      "sources": [
+        {"name": "LLM Papers (arXiv)", "type": "acervo_preprint", "url": "https://arxiv.org/search/?query=large+language+models", "description": "Preprints sobre LLMs e engenharia de prompts."},
+        {"name": "ACL Anthology — NLP Research", "type": "biblioteca", "url": "https://aclanthology.org/", "description": "Artigos top em processamento de linguagem natural."},
+        {"name": "EMNLP Proceedings", "type": "conferencia", "url": "https://2025.emnlp.org/", "description": "Anais da conferência de NLP aplicada."}
+      ]
+    }
+  ]
+}
