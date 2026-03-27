@@ -1,0 +1,722 @@
+{
+  "meta": {
+    "versao": "2.0",
+    "descricao": "Biblioteca de fontes open-access para estudos em TI e Ciência de Dados — curada com carinho 💙",
+    "dica_geral": "🎯 Dica do Mestre: não tente estudar tudo de uma vez! Escolha UMA categoria, domine o básico, depois avance. Consistência bate intensidade sempre!",
+    "como_usar_no_notebooklm": "Acesse NotebookLM, crie um notebook por categoria, cole as URLs como fontes. Use perguntas como 'Explique X como se eu fosse iniciante' ou 'Quais os 5 conceitos mais importantes desta fonte?'"
+  },
+  "notebooklm_sources": [
+    {
+      "category": "Banco de Dados Relacionais",
+      "emoji": "🗄️",
+      "dica_guanabara": "Banco de dados relacional é como uma planilha Excel turbinada com superpoderes! Aprende SQL primeiro — é a linguagem que todo mundo usa e que abre muitas portas.",
+      "ordem_sugerida": ["SQLite Documentation", "Stanford CS145 Databases", "PostgreSQL Official Documentation", "Use The Index, Luke!", "SQL Teaching"],
+      "sources": [
+        {
+          "name": "PostgreSQL Official Documentation",
+          "tipo": "documentacao",
+          "nivel": "intermediario-avancado",
+          "url": "https://www.postgresql.org/docs/",
+          "descricao": "Documentação oficial completa do PostgreSQL — o banco de dados open-source mais avançado do mundo.",
+          "dica": "Use como referência, não como ponto de entrada. Consulte quando precisar de detalhes específicos."
+        },
+        {
+          "name": "Stanford CS145 Databases",
+          "tipo": "curso_universitario",
+          "nivel": "iniciante-intermediario",
+          "url": "https://cs145-fa20.github.io/",
+          "descricao": "Curso aberto de bancos de dados de Stanford — teoria sólida com exercícios práticos.",
+          "dica": "Faça os exercícios de SQL na ordem. Não pule nenhum!"
+        },
+        {
+          "name": "SQLite Documentation",
+          "tipo": "documentacao",
+          "nivel": "iniciante",
+          "url": "https://www.sqlite.org/docs.html",
+          "descricao": "Documentação oficial do SQLite — perfeito para aprender SQL sem instalar nada complexo.",
+          "dica": "Começa aqui! SQLite roda no seu computador sem configuração. Ideal para praticar SQL do zero."
+        },
+        {
+          "name": "Use The Index, Luke!",
+          "tipo": "guia_aberto",
+          "nivel": "intermediario",
+          "url": "https://use-the-index-luke.com/",
+          "descricao": "Guia gratuito e incrível sobre performance em bancos de dados relacionais — foco em índices e otimização de queries.",
+          "dica": "🆕 NOVO! Depois que souber escrever queries, estude isso para deixá-las RÁPIDAS."
+        },
+        {
+          "name": "SQL Teaching",
+          "tipo": "tutorial_interativo",
+          "nivel": "iniciante",
+          "url": "https://www.sqlteaching.com/",
+          "descricao": "Tutorial interativo gratuito de SQL — você escreve SQL direto no navegador e vê o resultado na hora.",
+          "dica": "🆕 NOVO! Aprende SQL no navegador sem instalar nada. Ótimo para os primeiros dias!"
+        },
+        {
+          "name": "Mode SQL Tutorial",
+          "tipo": "tutorial",
+          "nivel": "iniciante-intermediario",
+          "url": "https://mode.com/sql-tutorial/",
+          "descricao": "Tutorial gratuito de SQL focado em análise de dados — muito prático e bem estruturado.",
+          "dica": "🆕 NOVO! Excelente para quem quer usar SQL para análise de dados, não só para programação."
+        }
+      ]
+    },
+    {
+      "category": "Banco de Dados Não Relacionais",
+      "emoji": "🍃",
+      "dica_guanabara": "NoSQL não é 'SQL ruim' — é uma ferramenta diferente para problemas diferentes! Quando seus dados não cabem em tabelas, o NoSQL entra em cena.",
+      "ordem_sugerida": ["NoSQL Survey Paper (arXiv)", "MongoDB University (Free)", "MongoDB Documentation", "Redis Documentation", "Cassandra Documentation"],
+      "sources": [
+        {
+          "name": "MongoDB Documentation",
+          "tipo": "documentacao",
+          "nivel": "intermediario",
+          "url": "https://www.mongodb.com/docs/",
+          "descricao": "Manual completo do MongoDB — o banco de dados de documentos mais popular do mundo.",
+          "dica": "Ótima documentação! Veja os tutoriais de 'Getting Started' antes de mergulhar nos detalhes."
+        },
+        {
+          "name": "Cassandra Documentation",
+          "tipo": "documentacao",
+          "nivel": "avancado",
+          "url": "https://cassandra.apache.org/doc/latest/",
+          "descricao": "Documentação oficial do Apache Cassandra — banco de dados distribuído de alta escala.",
+          "dica": "Para quem trabalha com Big Data. Não é para iniciantes — domine SQL e MongoDB antes."
+        },
+        {
+          "name": "NoSQL Survey Paper (arXiv)",
+          "tipo": "paper",
+          "nivel": "intermediario",
+          "url": "https://arxiv.org/abs/1905.12786",
+          "descricao": "Survey acadêmico open-access que compara os diferentes tipos de bancos NoSQL.",
+          "dica": "Leia antes de estudar MongoDB ou Cassandra para entender o 'mapa' do mundo NoSQL."
+        },
+        {
+          "name": "MongoDB University (Free)",
+          "tipo": "curso_gratuito",
+          "nivel": "iniciante-intermediario",
+          "url": "https://learn.mongodb.com/",
+          "descricao": "Cursos gratuitos oficiais da MongoDB University com certificados — muito bem feitos.",
+          "dica": "🆕 NOVO! Começa pelo curso 'MongoDB for SQL Professionals' se já souber SQL. Tem certificado gratuito!"
+        },
+        {
+          "name": "Redis Documentation",
+          "tipo": "documentacao",
+          "nivel": "intermediario",
+          "url": "https://redis.io/docs/",
+          "descricao": "Documentação oficial do Redis — banco de dados em memória ultra-rápido, muito usado para cache e filas.",
+          "dica": "🆕 NOVO! Redis é fundamental no mercado de trabalho. Aprenda os comandos básicos — SETEX, GET, HSET."
+        }
+      ]
+    },
+    {
+      "category": "APIs",
+      "emoji": "🔌",
+      "dica_guanabara": "API é o 'garçom' da tecnologia — ela pega seu pedido, leva para a cozinha (servidor) e traz a resposta. Entender APIs é obrigatório para qualquer dev moderno!",
+      "ordem_sugerida": ["REST API Tutorial", "FastAPI Documentation", "OpenAPI Specification", "HTTP Cats", "RapidAPI Blog"],
+      "sources": [
+        {
+          "name": "OpenAPI Specification",
+          "tipo": "padrao",
+          "nivel": "intermediario",
+          "url": "https://spec.openapis.org/",
+          "descricao": "Especificação oficial OpenAPI — o padrão mundial para documentar APIs REST.",
+          "dica": "Use para aprender a documentar suas APIs. Ferramentas como Swagger usam este padrão."
+        },
+        {
+          "name": "FastAPI Documentation",
+          "tipo": "documentacao",
+          "nivel": "intermediario",
+          "url": "https://fastapi.tiangolo.com/",
+          "descricao": "Framework open-source para criar APIs em Python de forma moderna e extremamente performática.",
+          "dica": "O melhor framework Python para APIs hoje! Aprende Python básico antes de começar aqui."
+        },
+        {
+          "name": "REST API Tutorial",
+          "tipo": "tutorial",
+          "nivel": "iniciante",
+          "url": "https://restfulapi.net/",
+          "descricao": "Guia completo e gratuito sobre conceitos e boas práticas de APIs REST.",
+          "dica": "Começa aqui para entender REST. Leia os artigos sobre HTTP methods e status codes primeiro."
+        },
+        {
+          "name": "HTTP Cats",
+          "tipo": "referencia_divertida",
+          "nivel": "iniciante",
+          "url": "https://http.cat/",
+          "descricao": "Cada código de status HTTP representado por um gato hilário — jeito mais divertido de decorar status codes.",
+          "dica": "🆕 NOVO! Parece brincadeira, mas é sério: você vai lembrar o que é 404, 500, 200 muito mais fácil!"
+        },
+        {
+          "name": "RapidAPI Blog",
+          "tipo": "blog_educacional",
+          "nivel": "iniciante-intermediario",
+          "url": "https://rapidapi.com/blog/",
+          "descricao": "Blog com tutoriais práticos sobre consumo e criação de APIs.",
+          "dica": "🆕 NOVO! Ótimos exemplos reais de como consumir APIs públicas com Python, JS e outras linguagens."
+        },
+        {
+          "name": "Public APIs List",
+          "tipo": "repositorio",
+          "nivel": "todos",
+          "url": "https://github.com/public-apis/public-apis",
+          "descricao": "Lista enorme de APIs públicas e gratuitas para praticar — mais de 1.400 APIs catalogadas.",
+          "dica": "🆕 NOVO! Escolha uma API que te interesse (filmes, clima, Pokémon, o que quiser!) e pratique consumir ela."
+        }
+      ]
+    },
+    {
+      "category": "Python",
+      "emoji": "🐍",
+      "dica_guanabara": "Python é a linguagem mais amada pelos cientistas de dados — e tem motivo! Sintaxe limpa, bibliotecas incríveis e comunidade enorme. Se vai trabalhar com dados, Python é caminho obrigatório!",
+      "ordem_sugerida": ["Python Tutor (Visualizador)", "Automate the Boring Stuff", "Python Official Documentation", "Real Python", "Scipy Lecture Notes"],
+      "sources": [
+        {
+          "name": "Python Official Documentation",
+          "tipo": "documentacao",
+          "nivel": "todos",
+          "url": "https://docs.python.org/3/",
+          "descricao": "Documentação oficial e completa da linguagem Python — o padrão ouro de referência.",
+          "dica": "O Tutorial oficial (docs.python.org/3/tutorial) é surpreendentemente bom para iniciantes!"
+        },
+        {
+          "name": "Scipy Lecture Notes",
+          "tipo": "livro_aberto",
+          "nivel": "intermediario",
+          "url": "https://scipy-lectures.org/",
+          "descricao": "Curso open-source de Python científico cobrindo NumPy, SciPy, Matplotlib e muito mais.",
+          "dica": "Depois de aprender Python básico, esse é o seu próximo passo para ciência de dados."
+        },
+        {
+          "name": "Automate the Boring Stuff (Free Online)",
+          "tipo": "livro_aberto",
+          "nivel": "iniciante",
+          "url": "https://automatetheboringstuff.com/",
+          "descricao": "Livro gratuito clássico sobre automação com Python — aprende programando coisas úteis do dia a dia.",
+          "dica": "LEITURA OBRIGATÓRIA para iniciantes! Você vai criar scripts úteis desde os primeiros capítulos."
+        },
+        {
+          "name": "Real Python",
+          "tipo": "portal_educacional",
+          "nivel": "iniciante-avancado",
+          "url": "https://realpython.com/",
+          "descricao": "Portal com tutoriais gratuitos de altíssima qualidade sobre Python — desde básico até avançado.",
+          "dica": "🆕 NOVO! Pesquisa qualquer dúvida Python com 'realpython.com + sua dúvida' no Google. Raramente decepciona!"
+        },
+        {
+          "name": "Python Tutor (Visualizador)",
+          "tipo": "ferramenta_interativa",
+          "nivel": "iniciante",
+          "url": "https://pythontutor.com/",
+          "descricao": "Ferramenta gratuita que executa código Python passo a passo e mostra VISUALMENTE o que acontece na memória.",
+          "dica": "🆕 NOVO! Quando não entender por que um código faz o que faz, cole aqui e veja cada passo acontecer. Mágico para aprender!"
+        },
+        {
+          "name": "Exercism Python Track",
+          "tipo": "pratica_interativa",
+          "nivel": "iniciante-intermediario",
+          "url": "https://exercism.org/tracks/python",
+          "descricao": "Plataforma gratuita com exercícios de Python e mentoria da comunidade — aprender fazendo!",
+          "dica": "🆕 NOVO! Melhor plataforma para praticar Python com feedback real de outros programadores. 100% gratuita."
+        }
+      ]
+    },
+    {
+      "category": "Inteligência Artificial",
+      "emoji": "🤖",
+      "dica_guanabara": "IA não é mágica — é matemática e estatística com muito dado! Não tem como pular os fundamentos. Estuda o básico de estatística e Python antes de mergulhar aqui.",
+      "ordem_sugerida": ["Elements of AI", "AI Index Report", "Stanford CS221 AI", "AIMA Site", "Artificial Intelligence: Foundations"],
+      "sources": [
+        {
+          "name": "Artificial Intelligence: A Modern Approach (AIMA site)",
+          "tipo": "material_aberto",
+          "nivel": "intermediario-avancado",
+          "url": "https://aima.cs.berkeley.edu/",
+          "descricao": "Materiais e recursos do livro mais famoso de IA — o 'bíblia' da área.",
+          "dica": "O livro é técnico. Use o site para acessar código Python dos algoritmos e slides das universidades."
+        },
+        {
+          "name": "Stanford CS221 AI",
+          "tipo": "curso_universitario",
+          "nivel": "intermediario-avancado",
+          "url": "https://ai.stanford.edu/class/cs221/",
+          "descricao": "Curso aberto de IA de Stanford com slides, listas e materiais completos.",
+          "dica": "Nível universitário puxado. Exige boa base em matemática e programação."
+        },
+        {
+          "name": "AI Index Report",
+          "tipo": "relatorio",
+          "nivel": "todos",
+          "url": "https://aiindex.stanford.edu/",
+          "descricao": "Relatório anual open-access sobre o estado da arte em IA — dados, tendências e benchmarks.",
+          "dica": "Lê o Executive Summary todo ano para se manter atualizado sobre o que está acontecendo em IA."
+        },
+        {
+          "name": "Elements of AI",
+          "tipo": "curso_gratuito",
+          "nivel": "iniciante",
+          "url": "https://www.elementsofai.com/",
+          "descricao": "Curso gratuito criado pela Universidade de Helsinki — explica IA para quem nunca programou. Disponível em português!",
+          "dica": "🆕 NOVO! O MELHOR ponto de entrada para IA. Não exige programação. Tem certificado gratuito. Começa aqui!"
+        },
+        {
+          "name": "MIT OpenCourseWare - Introduction to AI",
+          "tipo": "curso_universitario",
+          "nivel": "intermediario",
+          "url": "https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/",
+          "descricao": "Curso de IA do MIT com videoaulas gratuitas — professor Patrick Winston, didática excelente.",
+          "dica": "🆕 NOVO! As videoaulas do Prof. Winston são famosas pela clareza. Vale cada minuto!"
+        }
+      ]
+    },
+    {
+      "category": "Machine Learning",
+      "emoji": "⚙️",
+      "dica_guanabara": "Machine Learning é ensinar o computador a aprender com exemplos — como treinar um cachorro, mas com matemática! Domine regressão linear antes de qualquer coisa. Ela é a raiz de tudo.",
+      "ordem_sugerida": ["Google ML Crash Course", "An Introduction to Statistical Learning", "Scikit-Learn Documentation", "ML From Scratch (Blog)", "Kaggle Learn"],
+      "sources": [
+        {
+          "name": "An Introduction to Statistical Learning (Free PDF)",
+          "tipo": "livro_aberto",
+          "nivel": "intermediario",
+          "url": "https://www.statlearning.com/",
+          "descricao": "Livro open-access clássico sobre estatística e ML — o 'ISL'. PDF gratuito oficial disponível.",
+          "dica": "Baixa o PDF gratuito no site! É o melhor equilíbrio entre teoria e prática para ML."
+        },
+        {
+          "name": "Scikit-Learn Documentation",
+          "tipo": "documentacao",
+          "nivel": "intermediario",
+          "url": "https://scikit-learn.org/stable/",
+          "descricao": "A biblioteca de ML mais usada em Python — excelente documentação com exemplos prontos para usar.",
+          "dica": "User Guide + Examples do site são ouro! Muito melhor que tutoriais de terceiros para entender como usar."
+        },
+        {
+          "name": "Google Machine Learning Crash Course",
+          "tipo": "curso_gratuito",
+          "nivel": "iniciante-intermediario",
+          "url": "https://developers.google.com/machine-learning/crash-course",
+          "descricao": "Curso gratuito e muito bem produzido pelo Google — cobre os fundamentos de ML com visualizações interativas.",
+          "dica": "Ótima introdução prática. Faz os exercícios no Colab durante o curso!"
+        },
+        {
+          "name": "Kaggle Learn",
+          "tipo": "curso_interativo",
+          "nivel": "iniciante-intermediario",
+          "url": "https://www.kaggle.com/learn",
+          "descricao": "Micro-cursos gratuitos do Kaggle em Python, ML, Deep Learning, SQL e visualização — com exercícios práticos.",
+          "dica": "🆕 NOVO! Cada curso tem ~4h e você pratica em notebooks direto no navegador. Tem certificado gratuito!"
+        },
+        {
+          "name": "ML From Scratch (Blog)",
+          "tipo": "blog_educacional",
+          "nivel": "intermediario",
+          "url": "https://mlfromscratch.com/",
+          "descricao": "Blog que implementa algoritmos de ML do zero em Python — para quem quer entender de verdade.",
+          "dica": "🆕 NOVO! Implementar algoritmos do zero é a melhor forma de entendê-los. Este blog é perfeito para isso."
+        },
+        {
+          "name": "Distill.pub",
+          "tipo": "publicacao_visual",
+          "nivel": "intermediario-avancado",
+          "url": "https://distill.pub/",
+          "descricao": "Revista online com artigos de ML incrivelmente bem visualizados e explicados — qualidade única no mundo.",
+          "dica": "🆕 NOVO! Quando travar em algum conceito de ML, busca aqui. As visualizações interativas são de outro planeta!"
+        }
+      ]
+    },
+    {
+      "category": "Deep Learning",
+      "emoji": "🧠",
+      "dica_guanabara": "Deep Learning é ML com redes neurais profundas. Parece assustador, mas a ideia central é simples: neurônios artificiais conectados que aprendem com dados. Domine ML clássico antes de entrar aqui!",
+      "ordem_sugerida": ["3Blue1Brown Neural Networks", "MIT Deep Learning Course", "Deep Learning Book", "Fast.ai", "arXiv Deep Learning Papers"],
+      "sources": [
+        {
+          "name": "Deep Learning Book",
+          "tipo": "livro_aberto",
+          "nivel": "avancado",
+          "url": "https://www.deeplearningbook.org/",
+          "descricao": "Livro clássico open-access de Goodfellow, Bengio e Courville — a referência técnica de Deep Learning.",
+          "dica": "Não é para iniciantes! Use depois do curso do MIT ou Fast.ai. Excelente para aprofundar a teoria."
+        },
+        {
+          "name": "MIT Deep Learning Course",
+          "tipo": "curso_universitario",
+          "nivel": "intermediario",
+          "url": "http://introtodeeplearning.com/",
+          "descricao": "Curso aberto do MIT com videoaulas, slides e laboratórios práticos usando TensorFlow.",
+          "dica": "Um dos melhores cursos de DL disponíveis. Faça os labs no Google Colab — são excelentes!"
+        },
+        {
+          "name": "arXiv Deep Learning Papers",
+          "tipo": "repositorio",
+          "nivel": "avancado",
+          "url": "https://arxiv.org/list/cs.LG/recent",
+          "descricao": "Lista de papers recentes em machine/deep learning — onde as descobertas aparecem primeiro.",
+          "dica": "Lê os abstracts para se manter atualizado. Para iniciar, filtre por 'survey' nos títulos."
+        },
+        {
+          "name": "Fast.ai Practical Deep Learning",
+          "tipo": "curso_gratuito",
+          "nivel": "intermediario",
+          "url": "https://course.fast.ai/",
+          "descricao": "Curso prático e gratuito de Deep Learning do Fast.ai — abordagem top-down, você treina modelos reais desde a aula 1.",
+          "dica": "🆕 NOVO! Abordagem revolucionária: você treina redes neurais reais desde o primeiro dia, sem se afogar em teoria. Recomendadíssimo!"
+        },
+        {
+          "name": "3Blue1Brown Neural Networks",
+          "tipo": "serie_videos",
+          "nivel": "iniciante-intermediario",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "descricao": "Série de vídeos gratuita do canal 3Blue1Brown — explica redes neurais com animações matemáticas belíssimas.",
+          "dica": "🆕 NOVO! ASSISTA ANTES de qualquer curso de DL. Em 4 vídeos você entende a intuição de redes neurais melhor do que em muitos livros!"
+        },
+        {
+          "name": "Papers With Code",
+          "tipo": "plataforma",
+          "nivel": "intermediario-avancado",
+          "url": "https://paperswithcode.com/",
+          "descricao": "Plataforma que conecta papers de ML/DL com o código de implementação — state-of-the-art em cada área.",
+          "dica": "🆕 NOVO! Quando ler um paper, busca ele aqui — provavelmente tem o código disponível para você rodar!"
+        }
+      ]
+    },
+    {
+      "category": "R",
+      "emoji": "📊",
+      "dica_guanabara": "R foi criado por estatísticos para estatísticos — ele é imbatível para análise estatística e visualização de dados! Se vai trabalhar com bioestatística, epidemiologia ou pesquisa acadêmica, R é essencial.",
+      "ordem_sugerida": ["Swirl (Aprenda R dentro do R)", "R for Data Science", "R Project", "Tidy Tuesday", "R-Bloggers"],
+      "sources": [
+        {
+          "name": "R Project",
+          "tipo": "documentacao",
+          "nivel": "todos",
+          "url": "https://www.r-project.org/",
+          "descricao": "Site oficial da linguagem R com links para documentação, pacotes e comunidade.",
+          "dica": "Instala R + RStudio Desktop (gratuito). O RStudio transforma a experiência de programar em R."
+        },
+        {
+          "name": "R for Data Science (Free Online)",
+          "tipo": "livro_aberto",
+          "nivel": "iniciante-intermediario",
+          "url": "https://r4ds.hadley.nz/",
+          "descricao": "Livro open-source moderno de R do Hadley Wickham — o autor do tidyverse. 2ª edição atualizada.",
+          "dica": "O melhor livro para aprender R para ciência de dados. Segue o livro do começo ao fim!"
+        },
+        {
+          "name": "Swirl (Aprenda R dentro do R)",
+          "tipo": "ferramenta_interativa",
+          "nivel": "iniciante",
+          "url": "https://swirlstats.com/",
+          "descricao": "Pacote R que ensina R interativamente dentro do próprio console do R — aprende fazendo!",
+          "dica": "🆕 NOVO! Instala o pacote swirl no R e aprende a linguagem dentro dela mesma. Super eficiente para iniciantes!"
+        },
+        {
+          "name": "R-Bloggers",
+          "tipo": "portal_comunidade",
+          "nivel": "intermediario",
+          "url": "https://www.r-bloggers.com/",
+          "descricao": "Agregador com centenas de blogs da comunidade R — tutoriais, novidades e casos de uso reais.",
+          "dica": "🆕 NOVO! Para se manter atualizado sobre o ecossistema R. Usa a busca para encontrar tutoriais de pacotes específicos."
+        }
+      ]
+    },
+    {
+      "category": "Análise de Dados",
+      "emoji": "🔍",
+      "dica_guanabara": "Análise de dados é sobre fazer as perguntas certas! Dados sozinhos não dizem nada — é você quem extrai o significado. Aprende estatística descritiva primeiro: média, mediana, desvio padrão. Isso é a base!",
+      "ordem_sugerida": ["Statistics Fundamentals (StatQuest)", "Kaggle Datasets", "Data Science for Business", "KDD Conference Proceedings", "Google Data Analytics Certificate"],
+      "sources": [
+        {
+          "name": "Data Science for Business (Author Resources)",
+          "tipo": "material_aberto",
+          "nivel": "intermediario",
+          "url": "https://www.datascienceforbusiness.com/",
+          "descricao": "Recursos complementares do livro clássico de Data Science for Business — foco em aplicação real.",
+          "dica": "Excelente para entender como dados viram decisões de negócio."
+        },
+        {
+          "name": "KDD Conference Open Proceedings",
+          "tipo": "conferencia",
+          "nivel": "avancado",
+          "url": "https://www.kdd.org/kdd2024/proceedings",
+          "descricao": "Anais abertos da maior conferência de Data Mining e Data Science do mundo.",
+          "dica": "Para se manter na fronteira da pesquisa. Leia os Best Paper Awards para entender o que há de melhor."
+        },
+        {
+          "name": "Statistics Fundamentals (StatQuest)",
+          "tipo": "serie_videos",
+          "nivel": "iniciante-intermediario",
+          "url": "https://www.youtube.com/@statquest",
+          "descricao": "Canal do YouTube do Josh Starmer — explica estatística e ML com clareza e bom humor únicos.",
+          "dica": "🆕 NOVO! O equivalente ao Guanabara para estatística e ML em inglês. As músicas de abertura são memoráveis!"
+        },
+        {
+          "name": "Kaggle Datasets",
+          "tipo": "repositorio_dados",
+          "nivel": "todos",
+          "url": "https://www.kaggle.com/datasets",
+          "descricao": "Maior repositório de datasets públicos do mundo — mais de 50.000 datasets para praticar análise.",
+          "dica": "🆕 NOVO! Nada substitui praticar com dados reais. Escolhe um dataset de um tema que você curte e vai fundo!"
+        },
+        {
+          "name": "Our World in Data",
+          "tipo": "portal_dados",
+          "nivel": "todos",
+          "url": "https://ourworldindata.org/",
+          "descricao": "Portal de dados globais com visualizações interativas e datasets sobre saúde, economia, clima e muito mais.",
+          "dica": "🆕 NOVO! Dados reais e limpos sobre o mundo. Ótimo para projetos de portfólio com significado real."
+        }
+      ]
+    },
+    {
+      "category": "Visualização & Dashboards",
+      "emoji": "📈",
+      "dica_guanabara": "Um gráfico ruim pode esconder uma verdade importante! Visualização é comunicação. A regra de ouro: menos é mais. Todo elemento visual deve ter um motivo para existir.",
+      "ordem_sugerida": ["Storytelling With Data Blog", "From Data to Viz", "Observable Data Visualization", "Flourish Studio", "Data Visualization Catalogue"],
+      "sources": [
+        {
+          "name": "Storytelling With Data Blog",
+          "tipo": "blog_educacional",
+          "nivel": "iniciante-intermediario",
+          "url": "https://www.storytellingwithdata.com/blog",
+          "descricao": "Conteúdo gratuito sobre narrativa com dados — a referência mundial em comunicação com dados.",
+          "dica": "Lê os posts com análises de 'antes e depois' — você vai ver como melhorar qualquer gráfico."
+        },
+        {
+          "name": "Observable Data Visualization",
+          "tipo": "plataforma_aberta",
+          "nivel": "intermediario",
+          "url": "https://observablehq.com/",
+          "descricao": "Plataforma open-source com notebooks interativos para explorar e criar visualizações com D3.js.",
+          "dica": "Ótimo para ver exemplos de visualizações avançadas e aprender D3.js no contexto."
+        },
+        {
+          "name": "From Data to Viz",
+          "tipo": "guia_referencia",
+          "nivel": "iniciante",
+          "url": "https://www.data-to-viz.com/",
+          "descricao": "Guia gratuito interativo que mostra qual tipo de gráfico usar para cada tipo de dado — com exemplos em código.",
+          "dica": "🆕 NOVO! Não sabe que gráfico usar? Entra aqui, responde sobre seus dados e o site recomenda o tipo ideal!"
+        },
+        {
+          "name": "Flourish Studio",
+          "tipo": "ferramenta_gratuita",
+          "nivel": "iniciante",
+          "url": "https://flourish.studio/",
+          "descricao": "Ferramenta gratuita para criar visualizações e animações de dados incríveis sem programação.",
+          "dica": "🆕 NOVO! Para criar aquelas visualizações de ranking animado (bar chart race) e mapas interativos sem código!"
+        },
+        {
+          "name": "Data Visualization Catalogue",
+          "tipo": "referencia",
+          "nivel": "iniciante-intermediario",
+          "url": "https://datavizcatalogue.com/",
+          "descricao": "Catálogo completo de todos os tipos de gráficos com explicações de quando e como usar cada um.",
+          "dica": "🆕 NOVO! Referência visual para escolher o gráfico certo. Favorita no navegador!"
+        }
+      ]
+    },
+    {
+      "category": "Segurança da Informação",
+      "emoji": "🔐",
+      "dica_guanabara": "Segurança não é paranoia — é responsabilidade! Todo desenvolvedor precisa entender os ataques mais comuns. Conhece o ataque para poder se defender.",
+      "ordem_sugerida": ["OWASP Top 10", "TryHackMe", "NIST Cybersecurity Framework", "PortSwigger Web Security Academy", "Cybrary"],
+      "sources": [
+        {
+          "name": "NIST Cybersecurity Framework",
+          "tipo": "framework",
+          "nivel": "intermediario",
+          "url": "https://csrc.nist.gov/publications",
+          "descricao": "Documentação aberta do NIST com frameworks, padrões e guidelines de cibersegurança.",
+          "dica": "Referência para profissionais e empresas. Use para entender boas práticas em nível organizacional."
+        },
+        {
+          "name": "OWASP Top 10",
+          "tipo": "guia_aberto",
+          "nivel": "iniciante-intermediario",
+          "url": "https://owasp.org/www-project-top-ten/",
+          "descricao": "As 10 principais vulnerabilidades de segurança em aplicações web — atualizado regularmente.",
+          "dica": "LEITURA OBRIGATÓRIA para qualquer dev web! Conhece cada vulnerabilidade e como evitar."
+        },
+        {
+          "name": "PortSwigger Web Security Academy",
+          "tipo": "curso_gratuito_interativo",
+          "nivel": "iniciante-avancado",
+          "url": "https://portswigger.net/web-security",
+          "descricao": "Academia gratuita de segurança web dos criadores do Burp Suite — labs práticos para cada tipo de ataque.",
+          "dica": "🆕 NOVO! O melhor recurso gratuito para aprender segurança web na prática. Você explora vulnerabilidades reais em ambiente seguro!"
+        },
+        {
+          "name": "TryHackMe",
+          "tipo": "plataforma_pratica",
+          "nivel": "iniciante-intermediario",
+          "url": "https://tryhackme.com/",
+          "descricao": "Plataforma gamificada de cybersegurança com salas interativas — tem plano gratuito generoso.",
+          "dica": "🆕 NOVO! Aprende hacking ético de forma gamificada. O plano free já tem muito conteúdo para iniciantes."
+        }
+      ]
+    },
+    {
+      "category": "Engenharia de Prompts / LLM",
+      "emoji": "💬",
+      "dica_guanabara": "Prompt Engineering é a nova programação! A qualidade da sua saída depende diretamente da qualidade da sua entrada. Lixo entra, lixo sai — vale para LLMs também!",
+      "ordem_sugerida": ["Prompt Engineering Guide", "Learn Prompting", "OpenAI Documentation", "Anthropic Prompt Engineering", "LLM Papers (arXiv)"],
+      "sources": [
+        {
+          "name": "OpenAI Documentation",
+          "tipo": "documentacao",
+          "nivel": "intermediario",
+          "url": "https://platform.openai.com/docs",
+          "descricao": "Documentação completa sobre modelos GPT, fine-tuning, embeddings e boas práticas de prompt.",
+          "dica": "Excelente para quem quer integrar LLMs em aplicações. Veja o Prompt Engineering Guide dentro da doc."
+        },
+        {
+          "name": "Prompt Engineering Guide",
+          "tipo": "guia_aberto",
+          "nivel": "iniciante-intermediario",
+          "url": "https://www.promptingguide.ai/",
+          "descricao": "Guia open-source completo de engenharia de prompts — em vários idiomas, incluindo português!",
+          "dica": "A referência mais completa sobre técnicas de prompt: zero-shot, few-shot, chain-of-thought e muito mais."
+        },
+        {
+          "name": "LLM Papers (arXiv)",
+          "tipo": "repositorio",
+          "nivel": "avancado",
+          "url": "https://arxiv.org/list/cs.CL/recent",
+          "descricao": "Papers recentes em NLP, LLMs e modelos de linguagem — onde as pesquisas aparecem primeiro.",
+          "dica": "Para se manter na fronteira. Filtra por 'survey' para encontrar revisões acessíveis sobre o estado da arte."
+        },
+        {
+          "name": "Learn Prompting",
+          "tipo": "curso_gratuito",
+          "nivel": "iniciante",
+          "url": "https://learnprompting.org/",
+          "descricao": "Curso gratuito e open-source sobre engenharia de prompts — do básico ao avançado, com exemplos práticos.",
+          "dica": "🆕 NOVO! Começa aqui se for novo no assunto. Tem versão em português e é constantemente atualizado!"
+        },
+        {
+          "name": "Anthropic Prompt Engineering",
+          "tipo": "guia_oficial",
+          "nivel": "intermediario",
+          "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+          "descricao": "Guia oficial da Anthropic sobre como criar prompts eficazes para modelos Claude.",
+          "dica": "🆕 NOVO! Técnicas e princípios de prompt direto dos criadores do Claude. Muito bem escrito e prático."
+        },
+        {
+          "name": "Hugging Face Course",
+          "tipo": "curso_gratuito",
+          "nivel": "intermediario",
+          "url": "https://huggingface.co/learn/nlp-course/",
+          "descricao": "Curso gratuito da Hugging Face sobre NLP e transformers — da teoria ao deploy de modelos.",
+          "dica": "🆕 NOVO! Para quem quer ir além de usar LLMs e entender COMO eles funcionam por dentro. Excelente!"
+        }
+      ]
+    },
+    {
+      "category": "Estatística & Matemática para Dados",
+      "emoji": "📐",
+      "dica_guanabara": "Sem estatística você usa ML como piloto automático sem entender o painel. A matemática parece assustadora no começo, mas com os recursos certos você vê que é muito mais visual do que parece!",
+      "ordem_sugerida": ["Seeing Theory", "3Blue1Brown Essence of Linear Algebra", "Khan Academy Statistics", "Statistics with Python (Coursera Audit)", "Think Stats"],
+      "sources": [
+        {
+          "name": "Seeing Theory",
+          "tipo": "recurso_visual",
+          "nivel": "iniciante-intermediario",
+          "url": "https://seeing-theory.brown.edu/",
+          "descricao": "Site da Universidade Brown que visualiza conceitos de probabilidade e estatística de forma interativa e linda.",
+          "dica": "🆕 NOVO! Nunca entendeu distribuição normal, correlação ou intervalos de confiança? Abre este site e veja acontecer!"
+        },
+        {
+          "name": "3Blue1Brown Essence of Linear Algebra",
+          "tipo": "serie_videos",
+          "nivel": "iniciante-intermediario",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+          "descricao": "Série gratuita do 3Blue1Brown que explica álgebra linear com animações — muda completamente sua visão sobre vetores e matrizes.",
+          "dica": "🆕 NOVO! Fundamental para ML e Deep Learning. Assiste antes de estudar redes neurais. Cada vídeo é uma obra de arte!"
+        },
+        {
+          "name": "Khan Academy Statistics",
+          "tipo": "curso_gratuito",
+          "nivel": "iniciante",
+          "url": "https://www.khanacademy.org/math/statistics-probability",
+          "descricao": "Curso completo e gratuito de estatística e probabilidade da Khan Academy — do básico ao avançado.",
+          "dica": "🆕 NOVO! O melhor ponto de partida para estatística. Vídeos curtos, exercícios práticos, totalmente gratuito."
+        },
+        {
+          "name": "Think Stats",
+          "tipo": "livro_aberto",
+          "nivel": "intermediario",
+          "url": "https://greenteapress.com/wp/think-stats-2e/",
+          "descricao": "Livro gratuito sobre estatística usando Python — aprende estatística programando, não decorando fórmulas.",
+          "dica": "🆕 NOVO! Perfeito para programadores que precisam aprender estatística. PDF gratuito disponível no site!"
+        }
+      ]
+    },
+    {
+      "category": "Git & Controle de Versão",
+      "emoji": "🌿",
+      "dica_guanabara": "Git é o histórico de viagens no tempo do seu código! Aprender Git é inegociável — sem ele você não trabalha em equipe e não tem portfólio no GitHub. É uma habilidade básica hoje!",
+      "ordem_sugerida": ["Learn Git Branching", "Pro Git Book", "GitHub Skills", "Visualizing Git", "Oh My Git!"],
+      "sources": [
+        {
+          "name": "Pro Git Book",
+          "tipo": "livro_aberto",
+          "nivel": "todos",
+          "url": "https://git-scm.com/book/en/v2",
+          "descricao": "O livro oficial e gratuito do Git — disponível em português também. Referência definitiva.",
+          "dica": "🆕 NOVO! Disponível em pt-BR em git-scm.com/book/pt_BR/v2. Lê os primeiros 3 capítulos e você já sabe 80% do que precisa."
+        },
+        {
+          "name": "Learn Git Branching",
+          "tipo": "jogo_interativo",
+          "nivel": "iniciante-intermediario",
+          "url": "https://learngitbranching.js.org/?locale=pt_BR",
+          "descricao": "Jogo interativo gratuito para aprender Git visualmente — com interface em português!",
+          "dica": "🆕 NOVO! A forma mais divertida de aprender Git. Você vê as branches se movendo em tempo real. Imperdível!"
+        },
+        {
+          "name": "GitHub Skills",
+          "tipo": "curso_interativo",
+          "nivel": "iniciante",
+          "url": "https://skills.github.com/",
+          "descricao": "Cursos práticos gratuitos do GitHub — você aprende fazendo, direto em repositórios reais no GitHub.",
+          "dica": "🆕 NOVO! Aprende GitHub fazendo. Depois de Learn Git Branching, venha aqui para praticar o fluxo real."
+        }
+      ]
+    },
+    {
+      "category": "Cloud Computing & MLOps",
+      "emoji": "☁️",
+      "dica_guanabara": "Saber criar modelos de ML é só metade do caminho — o mercado quer quem sabe COLOCAR modelos em produção! Cloud e MLOps são as habilidades que faltam na maioria dos cientistas de dados.",
+      "ordem_sugerida": ["AWS Cloud Practitioner Essentials (Free)", "Made With ML", "Google Cloud Skills Boost Free Tier", "MLflow Documentation", "The Practical Guide to ML Production"],
+      "sources": [
+        {
+          "name": "AWS Cloud Practitioner Essentials (Free)",
+          "tipo": "curso_gratuito",
+          "nivel": "iniciante",
+          "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/",
+          "descricao": "Curso gratuito da Amazon sobre fundamentos de cloud computing com AWS.",
+          "dica": "🆕 NOVO! Para entender cloud sem precisar pagar nada. Preparação para a certificação AWS Cloud Practitioner."
+        },
+        {
+          "name": "Made With ML",
+          "tipo": "curso_gratuito",
+          "nivel": "intermediario",
+          "url": "https://madewithml.com/",
+          "descricao": "Curso gratuito de MLOps — de data science a sistemas de ML em produção. Muito prático e atualizado.",
+          "dica": "🆕 NOVO! O melhor recurso gratuito para aprender a colocar ML em produção. Cobre design, treino, deploy e monitoramento."
+        },
+        {
+          "name": "MLflow Documentation",
+          "tipo": "documentacao",
+          "nivel": "intermediario",
+          "url": "https://mlflow.org/docs/latest/index.html",
+          "descricao": "Documentação do MLflow — plataforma open-source para gerenciar o ciclo de vida de modelos ML.",
+          "dica": "🆕 NOVO! MLflow é a ferramenta MLOps mais usada em empresas. Aprende a rastrear experimentos e versionar modelos."
+        }
+      ]
+    }
+  ]
+}
